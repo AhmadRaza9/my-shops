@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/981/639/png-transparent-white-shopping-cart-illustration-computer-icons-shopping-cart-online-shopping-shopping-cart-icon-miscellaneous-angle-orange.png" type="image/x-icon">
+    <script src="main.js" defer></script>
+    <title>JavaScript Performance</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Shop</h1>
+    </header>
+    <section id="shop-controls">
+      <form id="new-product">
+        <div class="form-control">
+          <label for="title">Title</label>
+          <input type="text" id="title" />
+        </div>
+        <div class="form-control">
+          <label for="price">Price</label>
+          <input type="number" min="0" step="0.01" id="price"/>
+        </div>
+        <button id="subBtn" type="submit">ADD PRODUCT</button>
+      </form>
+    </section>
+    <section id=prod-controls>
+      <div id="add-to-cart">
+        <h1 class="cart-heading">Add To Cart Section</h1>
+        <ul id="add-to-cart-product-list"></ul>
+      </div>
+      <ul id="product-list"></ul>
+    </section>
+  </body>
+</html>
